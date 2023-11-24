@@ -1,26 +1,21 @@
 ## About
 
-The ApoE dataset is from a study of Sleep Disordered Breathing, apolipoprotein E (ApoE) and Lipid Metabolism at Stanford Univeristy, which investigated genetic associations and clinical features in ApoE e4 positive and negative subjects with various degree of sleep apnea. These clinical features include demographics, lipid and lipid regulatory hormonal profiles, Body Mass Index (BMI) and polysomnography (PSG) dervied variables such as central versus obstructive events.
+The ApoE dataset is from a study of Sleep Disordered Breathing, apolipoprotein E (ApoE) and Lipid Metabolism at Stanford University, which investigated genetic associations and clinical features in ApoE e4 positive and negative subjects with various degree of sleep apnea. These clinical features include demographics, lipid and lipid regulatory hormonal profiles, Body Mass Index (BMI) and polysomnography (PSG) derived variables such as central versus obstructive event counts.
 
-The data set has 712 subjects and consists of demographic information, PSG data, selected sleep clinic questionnaire responses and diagnosis data, ApoE genotyping, and lipid panel results. The studies shared on the NSRR took place between 2003 and 2007.
+The primary outcome of the study was Frequency of ApoE e4 within three levels of sleep apnea severity, grouped using the apnea-hypopnea index (AHI). Secondary outcomes include lipid profiles (including low-density lipoprotein (LDL), high-density lipoprotein (HDL), cholesterol and triglycerides).
 
-Patients were eligible for inclusion if they has supspected but untreated sleep disordered breathing. Exclusion criteria include use of continuous positive airway pressure (CPAP).
+Patients were eligible for inclusion in the study if they had suspected but untreated sleep disordered breathing. Exclusion criteria include use of continuous positive airway pressure (CPAP).
 
-The primary outcome of the study was Frequency of ApoE e4 in three groups of  sleep apnea with variable severity, measured by AHI. Secondary outcomes include lipid profiles (including low-density lipoprotein (LDL), high-density lipoprotein (HDL), cholesterol and triglycerides).
+The 712 studies shared on the NSRR took place between 2003 and 2007.
 
 ## Methods
 
-Data sources include polysomnography (PSG), blood sampling, and survey data.
-
-Validated instruments used include:
-* Epworth Sleepiness Scale
-* selected sleep question responses from the Sleep Disorder inventory, 
-* a sleep symptoms questionnaire that was used at Stanford sleep clinic during this period of time ??
+This dataset consists of PSG data, demographic information, selected sleep clinic questionnaire responses and diagnosis data, and lipid panel results. Validated instruments used include the Epworth Sleepiness Scale.
 
 ## Data overview
 
 ### Polysomnography
-[EDF signal data](:files_path:/original) (including EEG) are available for 712 subjects, with files named by the sleep/wake period. Data were captured using Sandman Elite digital sleep software and Sandman SD32+ amplifiers.
+[EDF signal data](:files_path:/original) (including EEG) are available for 712 subjects, with files named according to participants' ApoE ID ([apoe_id](:variables_path:/apoe_id)). Data were captured using Sandman Elite digital sleep software and Sandman SD32+ amplifiers.
 
 Scored Sleep annotation files are available for all subjects, with each 30-second epoch scored by hand according to the Rechtschaffen and Kales criteria (Rechtschaffen A, Kales A, editors. Los Angeles: Brain Information Service/Brain Research Institute, University of California; 1968. A manual of standardized terminology, techniques and scoring system of sleep stages in human subjects).
 

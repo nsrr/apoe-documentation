@@ -1,16 +1,18 @@
 ## About
 
-The ApoE dataset is from a study of Sleep Disordered Breathing, apolipoprotein E (ApoE) and Lipid Metabolism at Stanford University, which investigated genetic associations and clinical features in ApoE e4 positive and negative subjects with various degree of sleep apnea. These clinical features include demographics, lipid and lipid regulatory hormonal profiles, Body Mass Index (BMI) and polysomnography (PSG) derived variables such as central versus obstructive event counts.
+The ApoE dataset is from a NIH-supported study of Sleep Disordered Breathing, apolipoprotein E (ApoE) and Lipid Metabolism at Stanford University, which investigated genetic associations and clinical features in ApoE e4 positive and negative subjects with various degree of sleep apnea. These clinical features include demographics, lipid and lipid regulatory hormonal profiles, Body Mass Index (BMI) and polysomnography (PSG) derived variables such as central versus obstructive event counts.
 
-The primary outcome of the study was Frequency of ApoE e4 within three levels of sleep apnea severity, grouped using the apnea-hypopnea index (AHI). Secondary outcomes include lipid profiles (including low-density lipoprotein (LDL), high-density lipoprotein (HDL), cholesterol and triglycerides).
+The primary outcome of the study was the frequency of ApoE e4 within three levels of sleep apnea severity, grouped using the apnea-hypopnea index (AHI). Secondary outcomes include lipid profiles (including low-density lipoprotein (LDL), high-density lipoprotein (HDL), cholesterol and triglycerides).
 
 Patients were eligible for inclusion in the study if they had suspected but untreated sleep disordered breathing. Exclusion criteria include use of continuous positive airway pressure (CPAP).
 
-The 712 studies shared on the NSRR took place between 2003 and 2007.
+The 712 studies shared on the NSRR took place between 2003 and 2007. 
 
 ## Methods
 
-This dataset consists of PSG data, demographic information, selected sleep clinic questionnaire responses and diagnosis data, and lipid panel results. Validated instruments used include the Epworth Sleepiness Scale.
+This dataset consists of PSG data, demographic information, selected sleep clinic questionnaire responses and diagnosis data, and lipid panel results. Sleep survey instruments used include the Epworth Sleepiness Scale, selected sleep question responses on the Sleep Disorder inventory, and the sleep symptoms questionnaire that was used at Stanford sleep clinic during the study period. 
+
+Only untreated patients suspected of sleep disordered breathing were recruited while patients using CPAP were excluded from the study.
 
 ## Data overview
 
@@ -58,7 +60,7 @@ The Scored Sleep files contain 2 columns: 1) sleep/wake period number and 2) sle
 <tr><td>Respiratory belts</td><td>64 Hz</td></tr>
 <tr><td>Airflow</td><td>64 Hz</td></tr>
 <tr><td>SpO2</td><td>4 Hz</td></tr>
-<tr><td>Pule</td><td>4 Hz</td></tr>
+<tr><td>Pulse rate</td><td>4 Hz</td></tr>
 
 
 </table>

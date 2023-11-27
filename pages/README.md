@@ -98,6 +98,7 @@ Users must include the following text in any Acknowledgements:
 
 - NSRR ApoE GitHub Documentation: https://github.com/nsrr/apoe-documentation
 - ApoE GitHub Data Dictionary: https://github.com/nsrr/apoe-data-dictionary
+- ApoE GitLab signal processing: https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/apoe
 
 ## Questions?
 

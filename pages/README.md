@@ -17,6 +17,7 @@ Only untreated patients suspected of sleep disordered breathing were recruited w
 ## Data overview
 
 ### Polysomnography
+
 [EDF signal data](:files_path:/original) (including EEG) are available for 712 subjects, with files named according to participants' ApoE ID ([apoe_id](:variables_path:/apoe_id)). Data were captured using Sandman Elite digital sleep software and Sandman SD32+ amplifiers.
 
 Scored Sleep annotation files are available for all subjects, with each 30-second epoch scored by hand according to the Rechtschaffen and Kales criteria (Rechtschaffen A, Kales A, editors. Los Angeles: Brain Information Service/Brain Research Institute, University of California; 1968. A manual of standardized terminology, techniques and scoring system of sleep stages in human subjects).
@@ -68,6 +69,7 @@ The Scored Sleep files contain 2 columns: 1) sleep/wake period number and 2) sle
 </details>    
 
 ### Covariate/phenotype datasets
+
 [Covariate CSV files](:files_path:/datasets) contain data on all 712 subjects. The [apoe_id](:variables_path:/apoe_id) column is the unique ApoE identifier.
 
 The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., F=Female, M=Male), which are described in the **domains** data dictionary file.
@@ -84,7 +86,7 @@ When using this dataset, users must cite the following:
 
 >[Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
 
->[-----](-------) ??
+>[Koch H, Schneider LD, Finn LA, Leary EB, Peppard PE, Hagen E, Sorensen HBD, Jennum P, Mignot E. Breathing Disturbances Without Hypoxia Are Associated With Objective Sleepiness in Sleep Apnea. Sleep. 2017 Nov 1;40(11):zsx152. doi: 10.1093/sleep/zsx152. PMID: 29029253; PMCID: PMC6251661.](https://pubmed.ncbi.nlm.nih.gov/29029253/)
 
 Users must include the following text in any Acknowledgements:
 
@@ -105,4 +107,3 @@ Users must include the following text in any Acknowledgements:
 ## Questions?
 
 Please reach out to us at support@sleepdata.org or in the [Forum](https://sleepdata.org/forum) if you have questions.
-

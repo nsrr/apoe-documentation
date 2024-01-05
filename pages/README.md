@@ -29,7 +29,7 @@ EDF files can be linked to the Scored Sleep files by the ApoE ID in the filename
 The Scored Sleep files contain 2 columns: 1) sleep/wake period number and 2) sleep staging code.
 
 <details>
-  <summary>View sleep staging codes:</summary>
+  <summary>View sleep staging codes (.STA files):</summary>
 
   <table>
 <tr><td><b>Value</b></td><td><b>Meaning</b></td></tr>
@@ -37,9 +37,7 @@ The Scored Sleep files contain 2 columns: 1) sleep/wake period number and 2) sle
 <tr><td>1</td><td>NREM 1</td></tr>
 <tr><td>2</td><td>NREM 2</td></tr>
 <tr><td>3</td><td>NREM 3</td></tr>
-<tr><td>4</td><td>NREM 4 (merged with NREM 3 'later')</td></tr>
 <tr><td>5</td><td>REM</td></tr>
-<tr><td>6</td><td>? maybe not an option</td></tr>
 <tr><td>7</td><td>Not Scored</td></tr>
 
 
@@ -86,7 +84,7 @@ When using this dataset, users must cite the following:
 
 >[Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
 
->{pending from ApoE team}
+>[Moore H 4th, Leary E, Lee SY, Carrillo O, Stubbs R, Peppard P, Young T, Widrow B, Mignot E. Design and validation of a periodic leg movement detector. PLoS One. 2014 Dec 9;9(12):e114565. doi: 10.1371/journal.pone.0114565. Erratum in: PLoS One. 2015;10(9):e0138205. PMID: 25489744; PMCID: PMC4260847.](https://pubmed.ncbi.nlm.nih.gov/25489744/)
 
 Users must include the following text in any Acknowledgements:
 
@@ -94,7 +92,7 @@ Users must include the following text in any Acknowledgements:
 
 ## Changelog
 
-*December 2023*
+*January 2024*
 
 - Make ApoE dataset available for data requests
 

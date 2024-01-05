@@ -1,6 +1,6 @@
 ## About
 
-The ApoE dataset is from a NIH-supported study of Sleep Disordered Breathing, apolipoprotein E (ApoE) and Lipid Metabolism at Stanford University, which investigated genetic associations and clinical features in ApoE e4 positive and negative subjects with various degree of sleep apnea. These clinical features include demographics, lipid and lipid regulatory hormonal profiles, Body Mass Index (BMI) and polysomnography (PSG) derived variables such as central versus obstructive event counts.
+The ApoE dataset is from an NIH-supported study of Sleep Disordered Breathing, apolipoprotein E (ApoE) and Lipid Metabolism at Stanford University, which investigated genetic associations and clinical features in ApoE e4 positive and negative subjects with various degree of sleep apnea. These clinical features include demographics, lipid and lipid regulatory hormonal profiles, Body Mass Index (BMI) and polysomnography (PSG) derived variables such as central versus obstructive event counts.
 
 The primary outcome of the study was the frequency of ApoE e4 within three levels of sleep apnea severity, grouped using the apnea-hypopnea index (AHI). Secondary outcomes include lipid profiles (including low-density lipoprotein (LDL), high-density lipoprotein (HDL), cholesterol and triglycerides).
 

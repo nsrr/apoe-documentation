@@ -20,13 +20,11 @@ Only untreated patients suspected of sleep disordered breathing were recruited w
 
 [EDF signal data](:files_path:/original) (including EEG) are available for 712 subjects, with files named according to participants' ApoE ID ([apoe_id](:variables_path:/apoe_id)). Data were captured using Sandman Elite digital sleep software and Sandman SD32+ amplifiers.
 
-Scored Sleep annotation files are available for all subjects, with each 30-second epoch scored by hand according to the Rechtschaffen and Kales criteria (Rechtschaffen A, Kales A, editors. Los Angeles: Brain Information Service/Brain Research Institute, University of California; 1968. A manual of standardized terminology, techniques and scoring system of sleep stages in human subjects).
+Scored sleep annotation files (.STA) are available for all subjects, with each 30-second epoch scored by hand according to the Rechtschaffen and Kales criteria (Rechtschaffen A, Kales A, editors. Los Angeles: Brain Information Service/Brain Research Institute, University of California; 1968. A manual of standardized terminology, techniques and scoring system of sleep stages in human subjects).
 
-Hypopneas were defined as a ≥30% reduction in nasal pressure signal excursions and associated ≥4% desaturation or arousal. The hypopnea definition is similar to the alternate AASM 2007 or Chicago criteria.
+Hypopneas were defined as a ≥ 30% reduction in nasal pressure signal excursions and associated ≥ 4% desaturation or arousal. The hypopnea definition is similar to the alternate AASM 2007 or Chicago criteria.
 
-EDF files can be linked to the Scored Sleep files by the ApoE ID in the filename. The variable **apoe_edf_date** is rounded to the first of the study month.
-
-The Scored Sleep files contain 2 columns: 1) sleep/wake period number and 2) sleep staging code.
+EDF files can be linked to the annotation files by the ApoE ID in the filename. The variable [apoe_edf_date](:variables_path:/apoe_edf_date) is rounded to the first of the study month.
 
 <details>
   <summary>View sleep staging codes (.STA files):</summary>
@@ -70,7 +68,7 @@ The Scored Sleep files contain 2 columns: 1) sleep/wake period number and 2) sle
 
 [Covariate CSV files](:files_path:/datasets) contain data on all 712 subjects. The [apoe_id](:variables_path:/apoe_id) column is the unique ApoE identifier.
 
-The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated “domain” (e.g., F=Female, M=Male), which are described in the **domains** data dictionary file.
+The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., F=Female, M=Male), which are described in the **domains** data dictionary file.
 
 The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/apoe-data-dictionary). 
 

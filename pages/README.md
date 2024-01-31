@@ -72,6 +72,27 @@ The dataset columns are described in the accompanying data dictionary files. The
 
 The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/apoe-data-dictionary). 
 
+The harmonized-dataset contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team to allow ready inter-operability with other NSRR datasets. 
+
+<details>
+  <summary>Expand to see the list of key harmonized variables:</summary>
+
+  <table>
+    <tr><td><b>Variable</b></td><td><b>Label</b></td></tr>
+    <tr><td><a href=":variables_path:/nsrr_age">nsrr_age</a></td><td>Subject age</td></tr>
+    <tr><td><a href=":variables_path:/nsrr_sex">nsrr_sex</a></td><td>Subject sex</td></tr> 
+    <tr><td><a href=":variables_path:/nsrr_bmi">nsrr_bmi</a></td><td>Body mass index (BMI)</td></tr> 
+<tr><td><a href=":variables_path:/nsrr_pctdursp_s1">nsrr_pctdursp_s1</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in stage 1 from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_pctdursp_s2">nsrr_pctdursp_s2</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in stage 2 from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_pctdursp_s3">nsrr_pctdursp_s3</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in stage 3/4 from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_pctdursp_sr">nsrr_pctdursp_sr</a></td><td>Percentage of total sleep duration (i.e., total sleep time, TST) in REM from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_tib_f1">nsrr_tib_f1</a></td><td>Total period of bed (i.e., time in bed) from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_tst_f1">nsrr_tst_f1</a></td><td>Total Sleep Duration: the interval between sleep onset and sleep offset while the participant is asleep from polysomnography</td></tr>
+<tr><td><a href=":variables_path:/nsrr_ttleffsp_f1">nsrr_ttleffsp_f1</a></td><td>Sleep Efficiency: the ratio of total sleep duration (i.e., total sleep time) to in-bed period (i.e., time in bed) from polysomnography</td></tr>
+  </table>
+
+</details>  
+
 ## Access and usage restrictions
 
 The ApoE dataset is only available for non-commercial use.

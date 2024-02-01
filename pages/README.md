@@ -8,6 +8,8 @@ Patients were eligible for inclusion in the study if they had suspected but untr
 
 The 712 studies shared on the NSRR took place between 2003 and 2007. 
 
+**Note:** The genetic data for the ApoE dataset is being processed and will be deposited by the data contributor in the future.
+
 ## Methods
 
 This dataset consists of PSG data, demographic information, selected sleep clinic questionnaire responses and diagnosis data, and lipid panel results. Sleep survey instruments used include the Epworth Sleepiness Scale, selected sleep question responses on the Sleep Disorder inventory, and the sleep symptoms questionnaire that was used at Stanford sleep clinic during the study period. 

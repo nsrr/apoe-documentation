@@ -66,7 +66,7 @@ EDF files can be linked to the annotation files by the ApoE ID in the filename. 
 
 ### Covariate/phenotype datasets
 
-[Covariate CSV files](:files_path:/datasets) contain data on all 712 subjects. The [apoe_id](:variables_path:/apoe_id) column is the unique ApoE identifier.
+[Covariate CSV files](:files_path:/datasets) contain data on all 712 subjects. The [apoe_id](:variables_path:/apoe_id) variable is the unique ApoE identifier. The [apoe_genotype](:variables_path:/apoe_genotype) variable indicates ApoE e4 status.
 
 The dataset columns are described in the accompanying data dictionary files. The **variables** data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., F=Female, M=Male), which are described in the **domains** data dictionary file.
 

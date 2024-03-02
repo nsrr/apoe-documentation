@@ -1,14 +1,12 @@
 ## About
 
-The ApoE dataset is from an NIH-supported study of Sleep Disordered Breathing, apolipoprotein E (ApoE) and Lipid Metabolism at Stanford University, which investigated genetic associations and clinical features in ApoE e4 positive and negative subjects with various degree of sleep apnea. These clinical features include demographics, lipid and lipid regulatory hormonal profiles, Body Mass Index (BMI) and polysomnography (PSG) derived variables such as central versus obstructive event counts.
+The ApoE dataset is from an NIH-supported study of Sleep Disordered Breathing, apolipoprotein E (ApoE) and Lipid Metabolism at Stanford University, which investigated genetic associations and clinical features in [ApoE e4 positive and negative subjects](https://sleepdata.org/datasets/apoe/variables/apoe_genotype) with various degree of sleep apnea. These clinical features include demographics, lipid and lipid regulatory hormonal profiles, Body Mass Index (BMI) and polysomnography (PSG) derived variables such as central versus obstructive event counts.
 
 The primary outcome of the study was the frequency of ApoE e4 within three levels of sleep apnea severity, grouped using the apnea-hypopnea index (AHI). Secondary outcomes include lipid profiles (including low-density lipoprotein (LDL), high-density lipoprotein (HDL), cholesterol and triglycerides).
 
 Patients were eligible for inclusion in the study if they had suspected but untreated sleep disordered breathing. Exclusion criteria include use of continuous positive airway pressure (CPAP).
 
 The 712 studies shared on the NSRR took place between 2003 and 2007. 
-
-**Note:** The genetic data for the ApoE dataset is being processed and will be deposited by the data contributor in the future.
 
 ## Methods
 
@@ -112,6 +110,10 @@ Users must include the following text in any Acknowledgements:
 > The Sleep Disordered Breathing, ApoE and Lipid Metabolism Study was supported by the National Institute of Health (5R01HL71515-3). The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
 
 ## Changelog
+
+*March 2024*
+
+- Add [genotyping variables](https://sleepdata.org/datasets/apoe/variables?folder=Clinical+Data%2FGenotyping) in dataset version 0.2.0
 
 *January 2024*
 

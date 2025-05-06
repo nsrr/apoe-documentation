@@ -4,7 +4,7 @@ The ApoE dataset is from an NIH-supported study of Sleep Disordered Breathing, a
 
 The primary outcome of the study was the frequency of ApoE e4 within three levels of sleep apnea severity, grouped using the apnea-hypopnea index (AHI). Secondary outcomes include lipid profiles (including low-density lipoprotein (LDL), high-density lipoprotein (HDL), cholesterol and triglycerides).
 
-Patients were eligible for inclusion in the study if they had suspected but untreated sleep disordered breathing. Exclusion criteria include use of continuous positive airway pressure (CPAP).
+Patients were eligible to be included in the study if they had suspected but untreated sleep disordered breathing. Exclusion criteria include use of continuous positive airway pressure (CPAP).
 
 The 712 studies shared on the NSRR took place between 2003 and 2007. 
 
